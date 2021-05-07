@@ -1,6 +1,6 @@
 import React,{useState , useEffect} from 'react'
-import auth from "./auth"
-import { useHistory} from 'react-router-dom'
+//import auth from "./auth"
+//import { useHistory} from 'react-router-dom'
 import Datatable from './Datatable'
 import "./Styles/AdminHome.css"
 import Pagination from './Pagination'
@@ -11,7 +11,7 @@ function AdminHome() {
       const [currentpage ,setCurrentpage] = useState(1)
       const [postperpage] = useState(5)
      
-      let history = useHistory()
+      //let history = useHistory()
 
       useEffect(() => { 
           fetch("https://heroku--server.herokuapp.com/table" ) 
