@@ -15,8 +15,8 @@ import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import 'tachyons'
 import View from './Component/ViewImage';
 import Footer from './Component/Footer';
-import PDF from "./Component/PDF"
-import Cert from "./Component/Cert"
+// import PDF from "./Component/PDF"
+// import Cert from "./Component/Cert"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./vendor/fontawesome-free/css/all.min.css"
 import Dashboard from './Dashboard'; 
