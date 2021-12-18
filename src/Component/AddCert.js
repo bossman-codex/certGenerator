@@ -19,7 +19,7 @@ function AddCert() {
 
       const onsubmit = (e) =>{ 
         e.preventDefault()
-        fetch("https://heroku--server.herokuapp.com/addcert" ,{
+        fetch("https://certificateverify.herokuapp.com/addcert" ,{
             method : "post",
             headers : {'Content-Type' : "application/json"},
             body: JSON.stringify({
