@@ -10,7 +10,7 @@ function Home({loadsearch}) {
 
     const onsubmit = (e) =>{
          e.preventDefault()
-         fetch("https://heroku--server.herokuapp.com/delete",{
+         fetch("https://certificateverify.herokuapp.com/delete",{
             method : "post",
             headers : {'Content-Type' : "application/json"},
             body: JSON.stringify({
