@@ -37,7 +37,7 @@ function Home({loadImg}) {
         const formData = new FormData();
         formData.append('certnumber', cert);
          e.preventDefault()
-         axios.post('https://heroku--server.herokuapp.com/image', formData , {
+         axios.post('https://certificateverify.herokuapp.com/image', formData , {
         }).then(res=>{
          const pall=[]
            
