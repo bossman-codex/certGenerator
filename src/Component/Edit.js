@@ -19,7 +19,7 @@ function Edit() {
      
       const onsubmit = (e) =>{ 
         e.preventDefault()
-        fetch("https://heroku--server.herokuapp.com/update" ,{
+        fetch("https://certificateverify.herokuapp.com/update" ,{
             method : "post",
             headers : {'Content-Type' : "application/json"},
             body: JSON.stringify({
