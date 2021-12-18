@@ -14,7 +14,7 @@ function AdminHome() {
       //let history = useHistory()
 
       useEffect(() => { 
-          fetch("https://certificateverify.herokuapp.com//table" ) 
+          fetch("https://certificateverify.herokuapp.com/table" ) 
           .then(response => response.json())
           
           .then(data =>setData(data))
