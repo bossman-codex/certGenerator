@@ -12,7 +12,7 @@ function AddUser() {
         let history = useHistory()
     
         const onsubmit = (e) =>{
-            fetch("https://heroku--server.herokuapp.com/register" ,{
+            fetch("https://certificateverify.herokuapp.com/register" ,{
                 method : "post",
                 headers : {'Content-Type' : "application/json"},
                 body: JSON.stringify({
