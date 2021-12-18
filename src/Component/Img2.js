@@ -24,7 +24,7 @@ function FileUpload({loadImg}) {
         formData.append('file', file);
         formData.append('Certnumber', certnumber);
         
-        fetch("https://heroku--server.herokuapp.com/upload" ,{
+        fetch("https://certificateverify.herokuapp.com/upload" ,{
             method : "post",
             body: formData
             })
