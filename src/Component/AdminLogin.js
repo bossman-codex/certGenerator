@@ -82,8 +82,9 @@ function AdminLogin(props) {
            Submit
           
           </button>
-<p>Hint:<br/> <b>email :jo7@gmail.com</b> <br/><b>password:admin</b></p>
+
           </div>
+<p>Hint:<br/> <b>email :jo7@gmail.com</b> <br/><b>password:admin</b></p>
         </form>
      </div>
         </div>
