@@ -77,7 +77,11 @@ function Home({loadImg}) {
                <div className="button">
               <button
               onSubmit ={onsubmit}
-              >Enter</button>  
+              >Enter</button> 
+                <div style={{paddingLeft:20}}></div>
+              <button
+              onClick ={()=>history.push(`/loginadmin`)}
+              >LogIn</button>  
               </div>
             </form>
 
